@@ -265,7 +265,7 @@ export const api = {
    */
   fetchConfig: async (): Promise<{ appName: string; schoolName: string }> => {
     if (GAS_API_URL.includes('PASTE_YOUR')) {
-      return { appName: 'IPA Exam Room', schoolName: 'SMP PGII 1 Bandung' };
+      return { appName: 'TKA SDNUP03', schoolName: 'SDN Utan Panjang 03' };
     }
     
     try {
@@ -281,10 +281,10 @@ export const api = {
       
       // Fallback to defaults if data is invalid
       console.warn('Invalid config data, using defaults');
-      return { appName: 'IPA Exam Room', schoolName: 'SMP PGII 1 Bandung' };
+      return { appName: 'TKA SDNUP03', schoolName: 'SDN Utan Panjang 03' };
     } catch (error) {
       console.error('Error fetching config:', error);
-      return { appName: 'IPA Exam Room', schoolName: 'SMP PGII 1 Bandung' };
+      return { appName: 'TKA SDNUP03', schoolName: 'SDN Utan Panjang 03' };
     }
   },
 
