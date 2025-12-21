@@ -16,7 +16,7 @@ import { logger } from './logger';
  * 3. Copy URL yang muncul
  * 4. Paste di bawah ini
  */
-export const GAS_API_URL = 'https://script.google.com/macros/s/AKfycbwoFa20-0ST4oo255yJNuv3iffYJnITu8aeDVyt93XIReNQuTkem1J18Hdp4ePEep3q/exec';
+export const GAS_API_URL = 'https://script.google.com/macros/s/AKfycbyHjII4V_1GT0cr7VWqCCiX5mAkAPQGNHrlajnD8nLMc8A22-wDfQi39YPjtp1Qsj8p/exec';
 
 // Helper untuk menghandle response
 const handleResponse = async (response: Response) => {
